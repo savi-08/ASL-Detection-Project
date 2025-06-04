@@ -65,11 +65,11 @@ evaluate_model.py
 ```
 ## 🔍 Sample Prediction
 
-![Sample Prediction](screenshots/sample_predictions.png)
+![Sample Prediction](Screenshots/sample_predictions.png)
 
 ## 📊 Confusion Matrix
 
-![Confusion Matrix](screenshots/confusion_matrix.png)
+![Confusion Matrix](Screenshots/confusion_matrix.png)
 
 Author: 
 Shravani Bande
