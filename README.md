@@ -63,5 +63,13 @@ train_model.py
 
 evaluate_model.py
 ```
-Author
+## 🔍 Sample Prediction
+
+![Sample Prediction](screenshots/sample_predictions.png)
+
+## 📊 Confusion Matrix
+
+![Confusion Matrix](screenshots/confusion_matrix.png)
+
+Author: 
 Shravani Bande
