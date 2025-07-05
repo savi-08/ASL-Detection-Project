@@ -5,11 +5,9 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropou
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 import os
 
-# Load preprocessed data
 with open("processed_data/data.pkl", "rb") as f:
     X_train, X_test, y_train, y_test, classes = pickle.load(f)
 
-# Input shape
 input_shape = X_train.shape[1:]
 
 # Build CNN model
@@ -31,10 +29,8 @@ model = Sequential([
 
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-# Show model summary
 model.summary()
 
-# Callbacks
 os.makedirs("models", exist_ok=True)
 checkpoint_path = "models/best_model.h5"
 

@@ -57,7 +57,7 @@ ASL_Detection_Project/
 pip install -r requirements.txt
 Run the scripts in order:
 
-preprocess_data.py
+preprocess_data.pys
 
 train_model.py
 

@@ -2,15 +2,13 @@ import os
 import cv2
 import matplotlib.pyplot as plt
 
-# Path to training data
-data_path = r"C:\Users\shrav\Desktop\ASL_Detection_Project\data\asl_alphabet_train"
+data_path = r"C:\Users\shrav\Desktop\ASL_Detection_Project\data\asl_alphabet_train" 
 
 # List class folders (A-Z, SPACE, DELETE, NOTHING)
 classes = sorted(os.listdir(data_path))
 print(f"Total classes found: {len(classes)}")
 print("Classes:", classes)
 
-# Display one sample image per class (up to 20)
 plt.figure(figsize=(15, 10))
 
 for idx, class_name in enumerate(classes[:20]):
